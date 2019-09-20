@@ -1,0 +1,231 @@
+@media only screen and (max-width: 1200px) {
+    #header {
+        .nav {
+            justify-content: center;
+
+            .nav__item {
+                &:nth-child(1) {
+                    margin-top: -17px;
+                    padding: 0;
+                }
+
+                &:nth-child(2) {
+                    margin-top: -17px;
+                    padding: 0 33px;
+                }
+
+                &:nth-child(3) {
+                    margin-top: -17px;
+                    padding: 0;
+                }
+
+                &:nth-child(4) {
+                    padding: 0 64px;
+                }
+
+                &:nth-child(5) {
+                    margin-top: -17px;
+                    padding: 0;
+                }
+
+                &:nth-child(6) {
+                    margin-top: -17px;
+                    padding: 0 34px;
+                }
+
+                &:nth-child(7) {
+                    margin-top: -17px;
+                }
+            }
+        }
+    }
+
+    #work {
+        .work {
+            .work__item {
+                height: 510px;
+
+                .work__img_5 {
+                    &:after {
+                        left: 42.2%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header {
+        .nav {
+            display: none;
+        }
+
+        .mobile-menu {
+            display: flex;
+            padding-top: 30px;
+            justify-content: space-around;
+            width: 100%;
+
+            .mobile-menu__logo {
+                height: 85px;
+            }
+
+            .mobile-menu__nav {
+                padding-top: 50%;
+                visibility: hidden;
+
+                .mobile-menu__item {
+                    text-align: center;
+                    margin-bottom: 15px;
+
+                    a {
+                        text-decoration: none;
+                        color: #4d4959;
+                        font-size: 0.813rem;
+                        font-weight: 700;
+                        letter-spacing: 2.3px;
+                    }
+                }
+            }
+
+            .show {
+                visibility: visible;
+            }
+
+            .hamburger {
+                height: 56px;
+            }
+        }
+
+        .mobile {
+            background-color: #fff;
+            height: 100vh;
+            position: fixed;
+            z-index: 9;
+        }
+    }
+
+    #footer {
+        .footer {
+            flex-direction: column;
+
+            .footer__adress {
+                text-align: center;
+            }
+
+            .footer__social {
+                align-items: center;
+                justify-content: center;
+                margin-right: 0;
+                margin-top: 0;
+                padding: 35px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 736px) {
+    #header {
+        .mobile-menu {
+            .mobile-menu__nav {
+                padding-top: 20%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #mailing {
+        .mailing {
+            .mailing__form {
+                input {
+                    padding: 0 30px 0 30px;
+                }
+
+                button {
+                    padding: 0 20px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #header {
+        .mobile-menu {
+            .mobile-menu__nav {
+                padding-top: 50%;
+            }
+        }
+    }
+
+    #about {
+        .about {
+            .about__title {
+                padding: 23px 10px;
+                text-align: center;
+            }
+        }
+    }
+
+    #work {
+        .work {
+            .work__item {
+                height: 597px;
+
+                .work__img_1:after {
+                    left: 37.7%;
+                }
+
+                .work__img_4:after {
+                    left: 32.7%;
+                }
+
+                .work__img_5:after {
+                    left: 27.2%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #work {
+        .work {
+            .work__item {
+                .work__text {
+                    padding: 0 25px 35px;
+                }
+
+                .work__img_1 {
+                    &:after {
+                        left: 34.7%;
+                    }
+                }
+
+                .work__img_4 {
+                    &:after {
+                        left: 21.7%;
+                    }
+                }
+
+                .work__img_5 {
+                    &:after {
+                        left: 19.2%;
+                    }
+                }
+            }
+        }
+    }
+
+    #twitter {
+        .twitter {
+            .twitter__item {
+                .twitter__title {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
