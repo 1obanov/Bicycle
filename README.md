@@ -1,5 +1,5 @@
 # Bicycle
-Please look at my responsive Pixel Perfect one page website based on PSD file.
+Please have a look at my responsive Pixel Perfect one page website based on PSD file.
 
 #### Live preview --> [Bicycle](https://1obanov.github.io/Bicycle/)
 
